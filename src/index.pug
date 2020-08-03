@@ -84,8 +84,8 @@ html(lang="en")
                     .w-full.px-6(class="lg:w-1/2")
                         form(name="contact" netlify)
                             .mb-4
-                                input.appearance-none.block.w-full.py-3.px-4.leading-tight.text-gray-700.bg-gray-200.border.border-gray-200.rounded(class="focus:bg-white focus:border-gray-500 focus:outline-none", type="email", placeholder="Email")
+                                input.appearance-none.block.w-full.py-3.px-4.leading-tight.text-gray-700.bg-gray-200.border.border-gray-200.rounded(class="focus:bg-white focus:border-gray-500 focus:outline-none", type="email", name="email", placeholder="Email")
                             .mb-4
-                                textarea.appearance-none.block.w-full.py-3.px-4.leading-tight.text-gray-700.bg-gray-200.border.border-gray-200.rounded(class="focus:bg-white focus:border-gray-500 focus:outline-none", placeholder="Write something...", rows="5")
+                                textarea.appearance-none.block.w-full.py-3.px-4.leading-tight.text-gray-700.bg-gray-200.border.border-gray-200.rounded(class="focus:bg-white focus:border-gray-500 focus:outline-none", type="text", name="text", placeholder="Write something...", rows="5")
                             div
                                 button.inline-block.w-full.py-4.px-8.leading-none.text-white.bg-indigo-500.rounded.shadow(class="hover:bg-indigo-600") Submit
